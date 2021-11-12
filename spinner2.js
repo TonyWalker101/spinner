@@ -1,5 +1,5 @@
 const process = require("process");
-let spinner = ["|","/","-","\\","|"];
+const spinner = ["|","/","-","\\","|"];
 let timer = 100;
 
 for (let i = 0; i < spinner.length; i++) {
